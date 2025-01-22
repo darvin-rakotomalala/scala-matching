@@ -4,10 +4,13 @@
 *~
 
 # sbt specific
+dist/
 dist/*
+target/
 target/*
 lib_managed/
 src_managed/
+project/
 project/*
 project/boot/
 project/plugins/project/
@@ -26,6 +29,7 @@ project/local-plugins.sbt
 classes/
 
 # idea
+.idea/
 .idea/*
 .idea_modules
 /.worksheet/
@@ -39,3 +43,4 @@ classes/
 
 ### Scala ###
 .bsp/
+.bsp/*
